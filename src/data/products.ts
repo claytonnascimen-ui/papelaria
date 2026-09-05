@@ -1,0 +1,161 @@
+import { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'caneta-bic',
+    name: 'Caneta bic',
+    price: 32.12,
+    description: 'Caneta Esferográfica Bic Azul Cristal 1.0mm - Caixa C/ 50un',
+    category: 'Material',
+    subCategory: 'Escrita',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_678292-MLA82803882070_032025-F.webp',
+    paymentUrl: 'https://buy.stripe.com/test_6oUcN57ALgPW7HY9Th0co00',
+    badge: 'Mais Vendido',
+    rating: 4.9,
+    reviewsCount: 142,
+    inStock: true,
+    unitInfo: 'Caixa com 50 unidades'
+  },
+  {
+    id: 'borracha',
+    name: 'Borracha',
+    price: 2.00,
+    description: 'Borracha macia e suave',
+    category: 'Material',
+    subCategory: 'Correção',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_940931-MLA95154833308_102025-F.webp',
+    paymentUrl: 'https://buy.stripe.com/test_cNidR908j57egeu8Pd0co02',
+    badge: 'Econômico',
+    rating: 4.8,
+    reviewsCount: 89,
+    inStock: true,
+    unitInfo: 'Unidade individual'
+  },
+  {
+    id: 'lapis',
+    name: 'Lapis',
+    price: 1.70,
+    description: 'Lápis Escolar Da Bic',
+    category: 'Material',
+    subCategory: 'Escrita',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_742240-MLB104251448536_012026-F-lapis-escolar-da-bic-grafite-preto-boa-qualidade.webp',
+    paymentUrl: 'https://buy.stripe.com/test_14A28r1cn6bi8M22qP0co01',
+    badge: 'Essencial',
+    rating: 4.7,
+    reviewsCount: 95,
+    inStock: true,
+    unitInfo: 'Grafite preto HB'
+  },
+  {
+    id: 'papel-sulfite',
+    name: 'Papel Sulfite',
+    price: 50.00,
+    description: 'Papel Sulfite Profissional Chamex',
+    category: 'Material',
+    subCategory: 'Papéis',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_731660-MLA100370566650_122025-F.webp',
+    paymentUrl: 'https://buy.stripe.com/test_aFaeVd7AL8jq6DU9Th0co03',
+    badge: 'Qualidade Premium',
+    rating: 5.0,
+    reviewsCount: 230,
+    inStock: true,
+    unitInfo: 'Resma com 500 folhas A4'
+  },
+  {
+    id: 'regua-30cm',
+    name: 'Regua 30cm',
+    price: 15.00,
+    description: 'Régua personalizada',
+    category: 'Material',
+    subCategory: 'Medição',
+    imageUrl: 'https://www.printi.com.br/cdn-cgi/image/format=auto,quality=80,onerror=redirect,width=1024/https://d1br4h274rc9sc.cloudfront.net/content/r_gua_1x_2_9f3804afef.webp',
+    paymentUrl: 'https://buy.stripe.com/test_3cI14ng7hfLS9Q64yX0co04',
+    badge: 'Durável',
+    rating: 4.8,
+    reviewsCount: 64,
+    inStock: true,
+    unitInfo: 'Acrílico resistente 30cm'
+  },
+  {
+    id: 'durex',
+    name: 'Durex',
+    price: 20.00,
+    description: 'Durex Fita Transparente',
+    category: 'Material',
+    subCategory: 'Adesivos',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_767453-MLB49372993971_032022-F-durex-fita-transparente-12mm-x-10m-c03----1-pacote--3084.webp',
+    paymentUrl: 'https://buy.stripe.com/test_00w14n7AL0QY8M27L90co05',
+    badge: 'Alta Aderência',
+    rating: 4.9,
+    reviewsCount: 112,
+    inStock: true,
+    unitInfo: 'Pacote com fitas adesivas'
+  },
+  {
+    id: 'lapis-de-cor',
+    name: 'Lapis de cor',
+    price: 30.00,
+    description: 'Lápis De Cor Triangular Color',
+    category: 'Material',
+    subCategory: 'Artes',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_785672-MLA93512668589_092025-F.webp',
+    paymentUrl: 'https://buy.stripe.com/test_28E4gzf3deHObYefdB0co09',
+    badge: 'Cores Vivas',
+    rating: 4.9,
+    reviewsCount: 178,
+    inStock: true,
+    unitInfo: 'Corpo triangular ergonômico'
+  },
+  {
+    id: 'estojo-lapis',
+    name: 'Estojo lapis',
+    price: 12.00,
+    description: 'Estojo Escolar Simples',
+    category: 'Material',
+    subCategory: 'Organização',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_996404-MLB112643132611_062026-F-estojo-escolar-simples-nylon.webp',
+    paymentUrl: 'https://buy.stripe.com/test_4gM9ATf3dczG1jAd5t0co06',
+    badge: 'Prático',
+    rating: 4.6,
+    reviewsCount: 53,
+    inStock: true,
+    unitInfo: 'Nylon resistente com zíper'
+  },
+  {
+    id: 'lapiseira',
+    name: 'Lapiseira',
+    price: 42.00,
+    description: 'Lapiseira Cis Tecnocis C-205',
+    category: 'Material',
+    subCategory: 'Escrita Técnica',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_638269-MLB45976130081_052021-F-lapiseira-cis-tecnocis-c205-05mm-preto.webp',
+    paymentUrl: 'https://buy.stripe.com/test_bJe9ATcV50QY7HY0iH0co07',
+    badge: 'Profissional',
+    rating: 4.9,
+    reviewsCount: 120,
+    inStock: true,
+    unitInfo: 'Ponta metálica 0.5mm'
+  },
+  {
+    id: 'grafite',
+    name: 'Grafite',
+    price: 15.00,
+    description: 'Grafite Pentel - Hi-polymer',
+    category: 'Material',
+    subCategory: 'Escrita Técnica',
+    imageUrl: 'https://http2.mlstatic.com/D_NQ_NP_2X_658264-MLB88932402124_082025-F-grafite-pentel-hi-polymer-super-07mm.webp',
+    paymentUrl: 'https://buy.stripe.com/test_bJefZh7AL1V2bYe4yX0co08',
+    badge: 'Alta Resistência',
+    rating: 5.0,
+    reviewsCount: 204,
+    inStock: true,
+    unitInfo: 'Tubo com minas Hi-Polymer 0.7mm'
+  }
+];
+
+export function formatPrice(value: number): string {
+  return value.toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL'
+  });
+}

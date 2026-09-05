@@ -1,0 +1,6 @@
+{
+  "name": "Papelaria Central - Materiais Escolares e Escritório",
+  "description": "Landing page com ofertas exclusivas em produtos de papelaria, escrita e escritório com checkout seguro via Stripe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
